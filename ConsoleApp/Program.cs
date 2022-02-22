@@ -6,8 +6,8 @@ using MoraviaIT.ConsoleApp.Services;
 var files = new Files();
 var deserialize = new XmlDeserializeConverter();
 var serializer = new JsonSerializeConverter();
-var reader = new FileReader(files, Path.Combine(Environment.CurrentDirectory, "./Document.xml"));
-var writer = new FileWriter(files, Path.Combine(Environment.CurrentDirectory, "./Document.json"));
+var reader = new FileReader(files, Path.Combine(Environment.CurrentDirectory, "Document.xml"));
+var writer = new FileWriter(files, Path.Combine(Environment.CurrentDirectory, "Document.json"));
 
 try
 {
